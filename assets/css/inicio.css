@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
 }
-body {
-background-image: url("images/veterinario-a-domicilio.jpg");
+.fondo {
+background:  url("https://rocketpin.cl/blog/content/images/2021/09/veterinario-a-domicilio.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -21,9 +21,7 @@ p {
 p strong {
     font-size: 30px;
 }
-.clearfix{
-    clear: both;
-}
+
 section img {
     margin: 30px;
    
@@ -34,6 +32,7 @@ section img {
     height: 50px;
     width: 50px;
 }
+
 .inicio {
 text-align: center;
 
