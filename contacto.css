@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.fondo {
+    position: relative;
+margin-top: 200px;
+padding-top: 30px;
+background-image: url("https://descubrecomohacerlo.com/wp-content/uploads/2020/12/fondo-predeterminado-whatsapp.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+footer div img{
+    margin-left:  20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 50px;
+}
+.container strong {
+    margin-left: 100px;
+}
+.container img {
+    margin:50px  50px  50px 100px;
+}
+.container img:hover {
+    transition: all 0.5;
+    width: 70px;
+    height: 70px;
+}

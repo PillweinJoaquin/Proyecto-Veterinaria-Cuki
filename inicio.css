@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+background-image: url("images/veterinario-a-domicilio.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+ h1 {
+     text-align: center;
+    color: black;
+}
+p {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+p strong {
+    font-size: 30px;
+}
+.clearfix{
+    clear: both;
+}
+section img {
+    margin: 30px;
+   
+    width: 50px;
+    height: 40px;
+}
+ nav a img {
+    height: 50px;
+    width: 50px;
+}
+.inicio {
+text-align: center;
+
+}
+.logos img {
+margin: 80px;
+}
+.logos img:hover {
+    transition: all 0.7s;
+    width: 100px;
+    height: 100px;
+}
+.row div {
+    margin-left: 20px;
+}

@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+p {
+    text-align: center;
+}
+footer div img{
+    margin-left:  20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 50px;
+}
+.fotoG {
+    border-radius: 1%;
+    border: lightblue solid 2px;
+}
+.rounded{
+float: left;
+height: 300px;
+width: 400px;
+margin: 20px;
+border-radius: 30%;
+border: lightblue solid 2px;
+}
+.clearfix {
+    clear: both;
+}
+.container img {
+    margin:50px  50px  50px 100px;
+}
+.container strong {
+    margin-left: 100px;
+}
+.container img:hover {
+    transition: all 0.3s ;
+    width: 75px;
+    height: 75px;
+}
+
