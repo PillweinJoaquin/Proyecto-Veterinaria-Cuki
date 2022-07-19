@@ -40,7 +40,7 @@
 <header>
   <div class="container fondo">
     <form class="container position-relative">
-        <div class="mb-3 text-center">
+        <div  id="nombre" class="mb-3 text-center">
           <label for="Nombre" class="form-label">Nombre</label>
           <input type="Nombre" class="form-control" id="exampleInputNombre" aria-describedby="emailHelp">
 
@@ -62,7 +62,7 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Guardar</label>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button id="enviar" type="submit"  onclick="alHcerClickEnviar()" class="btn btn-primary">Enviar</button>
       </form>
 </div>
 </header>
@@ -78,7 +78,7 @@
   </div>
 </footer>
 
-
       <link rel="stylesheet" href="bootstrap.min.js">
+      <script src="js/inicio.js"></script>
 </body>
 </html>
